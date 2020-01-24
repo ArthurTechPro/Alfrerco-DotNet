@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arkivujo.Alfresco.Authentication", "Arkivujo.Alfresco.Authentication\Arkivujo.Alfresco.Authentication.csproj", "{1DC10899-2818-4874-B4F0-7A7CCD5B8793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arkivujo.Alfresco.Core", "Arkivujo.Alfresco.Core\Arkivujo.Alfresco.Core.csproj", "{1D55CC67-66E7-4D65-BDCE-4AC255CC685E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arkivujo.Alfresco.Core", "Arkivujo.Alfresco.Core\Arkivujo.Alfresco.Core.csproj", "{1D55CC67-66E7-4D65-BDCE-4AC255CC685E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arkivujo.Alfresco.Discovery", "Arkivujo.Alfresco.Discovery\Arkivujo.Alfresco.Discovery.csproj", "{9884D012-B9E8-457D-A8E5-E926D98A7896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arkivujo.Alfresco.Search", "Arkivujo.Alfresco.Search\Arkivujo.Alfresco.Search.csproj", "{0903B475-6274-4A81-9649-FD2BCE8B8A40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1D55CC67-66E7-4D65-BDCE-4AC255CC685E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D55CC67-66E7-4D65-BDCE-4AC255CC685E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D55CC67-66E7-4D65-BDCE-4AC255CC685E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9884D012-B9E8-457D-A8E5-E926D98A7896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9884D012-B9E8-457D-A8E5-E926D98A7896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9884D012-B9E8-457D-A8E5-E926D98A7896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9884D012-B9E8-457D-A8E5-E926D98A7896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
