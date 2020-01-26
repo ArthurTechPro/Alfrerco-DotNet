@@ -11,8 +11,8 @@ jobs:
         dotnet-version: 3.1.100
     - name: Build and Push
       run: |
-        export vers=0.0.2-$(date +"%y%j%H%M")
-        dotnet build --configuration Release /property:$vers
+        export vers=0.0.2-alpha-$(date +"%y%j%H%M")
+        dotnet build --configuration Release /property:Version=$vers
         cd Arkivujo.Alfresco.Authentication
         dotnet nuget push -s https://baget.roblthegreat.dev/v3/index.json -k ${{secrets.baget_api}} bin/Release/Arkivujo.Alfresco.Authentication.$vers.nupkg
         cd ../Arkivujo.Alfresco.Core
