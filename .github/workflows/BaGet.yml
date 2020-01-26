@@ -1,12 +1,8 @@
 name: BaGet .nupkg
-
 on: [push]
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Setup .NET Core
