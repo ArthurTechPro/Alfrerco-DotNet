@@ -1,3 +1,4 @@
+[![Actions Status](https://github.com/arkivujo/Arkivujo.Alfresco.Api/workflows/.NET%20Core/badge.svg)](https://github.com/arkivujo/Arkivujo.Alfresco.Api/actions)
 # arkivujo.alfresco.api
 This repository is a series of C# (.NET Standard 2.0) libraries for the Alfresco Client REST API.  It aims to be roughly similar to the Alfresco JavaScript API REST Client to support easily creating Alfresco clients in C#.
 
