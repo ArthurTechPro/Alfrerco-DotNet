@@ -7,9 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arkivujo.Alfresco.Authentic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arkivujo.Alfresco.Core", "Arkivujo.Alfresco.Core\Arkivujo.Alfresco.Core.csproj", "{1D55CC67-66E7-4D65-BDCE-4AC255CC685E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arkivujo.Alfresco.Discovery", "Arkivujo.Alfresco.Discovery\Arkivujo.Alfresco.Discovery.csproj", "{9884D012-B9E8-457D-A8E5-E926D98A7896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arkivujo.Alfresco.Discovery", "Arkivujo.Alfresco.Discovery\Arkivujo.Alfresco.Discovery.csproj", "{9884D012-B9E8-457D-A8E5-E926D98A7896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arkivujo.Alfresco.Search", "Arkivujo.Alfresco.Search\Arkivujo.Alfresco.Search.csproj", "{0903B475-6274-4A81-9649-FD2BCE8B8A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arkivujo.Alfresco.Search", "Arkivujo.Alfresco.Search\Arkivujo.Alfresco.Search.csproj", "{0903B475-6274-4A81-9649-FD2BCE8B8A40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingApp", "TestingApp\TestingApp.csproj", "{6F9078BE-6E87-4517-A25F-52BF434677F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3AD22D6-963A-4BBE-B72A-EEF479611767}"
+	ProjectSection(SolutionItems) = preProject
+		publish.bat = publish.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0903B475-6274-4A81-9649-FD2BCE8B8A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9078BE-6E87-4517-A25F-52BF434677F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9078BE-6E87-4517-A25F-52BF434677F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9078BE-6E87-4517-A25F-52BF434677F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9078BE-6E87-4517-A25F-52BF434677F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

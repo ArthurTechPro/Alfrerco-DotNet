@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arkivujo.Alfresco.Authentication\Arkivujo.Alfresco.Authentication.csproj" />
+    <ProjectReference Include="..\Arkivujo.Alfresco.Core\Arkivujo.Alfresco.Core.csproj" />
+    <ProjectReference Include="..\Arkivujo.Alfresco.Discovery\Arkivujo.Alfresco.Discovery.csproj" />
+    <ProjectReference Include="..\Arkivujo.Alfresco.Search\Arkivujo.Alfresco.Search.csproj" />
+  </ItemGroup>
+
+</Project>
