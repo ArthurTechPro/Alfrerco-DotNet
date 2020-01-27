@@ -1,0 +1,24 @@
+name: BaGet .nupkg
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.100
+    - name: Build and Push
+      run: |
+        export vers=0.0.2-alpha-$(date +"%y%j%H%M")
+        dotnet build --configuration Release /property:Version=$vers
+        cd Arkivujo.Alfresco.Authentication
+        dotnet nuget push -s https://baget.roblthegreat.dev/v3/index.json -k ${{secrets.baget_api}} bin/Release/Arkivujo.Alfresco.Authentication.$vers.nupkg
+        cd ../Arkivujo.Alfresco.Core
+        dotnet nuget push -s https://baget.roblthegreat.dev/v3/index.json -k ${{secrets.baget_api}} bin/Release/Arkivujo.Alfresco.Core.$vers.nupkg
+        cd ../Arkivujo.Alfresco.Discovery
+        dotnet nuget push -s https://baget.roblthegreat.dev/v3/index.json -k ${{secrets.baget_api}} bin/Release/Arkivujo.Alfresco.Discovery.$vers.nupkg
+        cd ../Arkivujo.Alfresco.Search
+        dotnet nuget push -s https://baget.roblthegreat.dev/v3/index.json -k ${{secrets.baget_api}} bin/Release/Arkivujo.Alfresco.Search.$vers.nupkg
+
