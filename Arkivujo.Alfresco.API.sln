@@ -14,9 +14,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingApp", "TestingApp\TestingApp.csproj", "{6F9078BE-6E87-4517-A25F-52BF434677F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3AD22D6-963A-4BBE-B72A-EEF479611767}"
-	ProjectSection(SolutionItems) = preProject
-		publish.bat = publish.bat
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

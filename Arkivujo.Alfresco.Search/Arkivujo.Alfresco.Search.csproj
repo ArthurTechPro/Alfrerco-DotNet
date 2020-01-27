@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -7,17 +6,17 @@
     <Company>Arkivujo</Company>
     <Authors>roblthegreat</Authors>
     <PackageProjectUrl>https://github.com/arkivujo/Arkivujo.Alfresco.Api</PackageProjectUrl>
-    <PackageTags>Alfresco Arkivuju REST Search</PackageTags>
+    <PackageTags>Alfresco Arkivujo REST Search</PackageTags>
     <Copyright>Copyright ©2020 roblthegreat</Copyright>
     <Description>A REST Client Library for the Search sevices of Alfresco</Description>
-    <PackageLicenseUrl>https://opensource.org/licenses/BSD-3-Clause</PackageLicenseUrl>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     <NeutralLanguage>en</NeutralLanguage>
     <RepositoryUrl>https://github.com/arkivujo/Arkivujo.Alfresco.Api</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="RestSharp" Version="106.10.2-alpha.0.4" />
-    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.10.2-alpha.0.4" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.10.1" />
     <PackageReference Include="JsonSubTypes" Version="1.6.0" />
   </ItemGroup>
 </Project>
